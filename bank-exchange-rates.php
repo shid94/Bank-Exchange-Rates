@@ -4,7 +4,7 @@
  * Description: Dynamic bank exchange rates with currencies, flags, sorting, timestamp, and calculator.
  * Version: 5.0
  * Author: Rashid Migadde
- * Plugin URI: https://github.com/shid94/
+ * Plugin URI: https://github.com/shid94/Bank-Exchange-Rates/
  * Requires PHP: 7.4
  * Requires at least: 5.0
  * Tested up to: 6.5
