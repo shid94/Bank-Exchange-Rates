@@ -1,0 +1,100 @@
+.bank-rates-wrapper {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.bank-rates-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.bank-rates-table th {
+  background: #00806E;
+  color: #ffffff;
+  padding: 12px;
+  text-align: center;
+}
+
+.bank-rates-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.bank-rates-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.bank-rates-table tr:hover {
+  background: #f1f1f1;
+}
+.bank-header {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+.bank-calculator {
+    margin-top:20px;
+    padding:15px;
+    border:1px solid #ddd;
+}
+.bank-calculator {
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.bank-calculator h4 {
+    margin-bottom: 15px;
+}
+
+.bank-calculator input,
+.bank-calculator select {
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.bank-calculator button {
+    margin-top: 10px;
+    padding: 12px;
+    background: #00652e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: marqueeScroll 60s linear infinite;
+}
+
+.marquee-content span {
+    margin-right: 40px;
+    display: inline-block;
+    font-size: 14px;
+}
+.marquee:hover .marquee-content {
+    animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
